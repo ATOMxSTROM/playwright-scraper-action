@@ -18,10 +18,12 @@ async function scrapePage(url) {
 
 (async () => {
     const urls = [
-        "PASTE_SEED_20_URL",
-        "PASTE_SEED_21_URL",
-        "PASTE_SEED_22_URL",
-        "PASTE_SEED_23_URL"
+        "https://sanand0.github.io/tdsdata/js_table/?seed=20",
+        "https://sanand0.github.io/tdsdata/js_table/?seed=21",
+        "https://sanand0.github.io/tdsdata/js_table/?seed=22",
+        "https://sanand0.github.io/tdsdata/js_table/?seed=23", "https://sanand0.github.io/tdsdata/js_table/?seed=24" , "https://sanand0.github.io/tdsdata/js_table/?seed=25", 
+        "https://sanand0.github.io/tdsdata/js_table/?seed=26", "https://sanand0.github.io/tdsdata/js_table/?seed=27", "https://sanand0.github.io/tdsdata/js_table/?seed=28",
+        "https://sanand0.github.io/tdsdata/js_table/?seed=29"
     ];
 
     let total = 0;
